@@ -7,7 +7,6 @@
 }
 body
 {
-	/*min-width: 900px;*/
 	font-family: OpenSans-Regular;
 	font-weight: normal;
 	position: relative;
@@ -76,7 +75,6 @@ nav
 	z-index: 100;
 	font-family: OpenSans-Regular;
 	display: block;
-	/*border-bottom: 1px solid #47303d;*/
 }
 
 .nav_menu 
@@ -210,6 +208,9 @@ h1
 	color: white;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
+	-webkit-box-shadow: 0 -0.5px 0 0 #cab2db;
+	-moz-box-shadow: 0 -0.5px 0 0 #cab2db;
+	-o-box-shadow: 0 -0.5px 0 0 #cab2db;
 	box-shadow: 0 -0.5px 0 0 #cab2db;
 	border: 1px solid #761cb5;
 	font-size: 18px;
